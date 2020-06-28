@@ -1,0 +1,31 @@
+.items {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+@media (min-width: 600px) {
+    .items {
+        flex-direction: row;
+        justify-content: space-around;    
+        align-items: center;
+    }
+}
+
+.items p {
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.items a:active {
+    background-color: rgb(23, 85, 255);
+}
+
+.items a {
+    text-decoration: none;
+}

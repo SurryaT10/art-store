@@ -1,0 +1,19 @@
+.burger-menu {
+    width: 20px;
+    height: 15px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.menu {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 3px;
+}
+
+@media (min-width: 600px) {
+    .burger-menu {
+        display: none
+    }
+}

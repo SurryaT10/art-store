@@ -1,0 +1,23 @@
+.side-drawer {
+    position: absolute;
+    z-index: 20;
+    height: 600px;
+    width: 60%;
+    background-color: rgb(0, 172, 149);
+    animation: slideIn 0.3s ease-in;
+}
+
+@media (min-width: 600px) {
+    .side-drawer {
+        display: none
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
